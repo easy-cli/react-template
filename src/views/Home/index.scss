@@ -1,0 +1,20 @@
+.home-container {
+  height: 100vh;
+  .logo {
+    width: 200px;
+    height: 200px;
+    animation: logo-spin infinite 20s linear;
+  }
+  .link {
+    color: #61dafb;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
